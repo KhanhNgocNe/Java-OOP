@@ -1,4 +1,4 @@
-package OPP_P2;
+package OPP_P2.String;
 
 import java.io.IOException;
 import java.util.Arrays;
