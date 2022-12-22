@@ -1,3 +1,5 @@
+package utils;
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -11,7 +13,7 @@ public class main {
 
 
 
-//        Connection connection = dbConnection.getConnection();
+//        Connection connection = utils.dbConnection.getConnection();
 //        Statement statement = connection.createStatement();
 //        String sql = "insert into student.student (stuid, stuname) values (4, \"DKN\");";
 //        statement.executeUpdate(sql);
