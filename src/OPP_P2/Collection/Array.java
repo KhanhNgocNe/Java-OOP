@@ -34,9 +34,10 @@ public class Array {
         System.out.println("List of people: " + stringList);
     }
 
+    //contains to search gan giong, equal la chinh xac
     private static void searchbyName(String key, List<String> stringList) {
         for (String str: stringList){
-            if(str.equals(key)){
+            if(str.contains(key)){
                 System.out.println("ResultL: " + str);
             }
 
@@ -48,8 +49,4 @@ public class Array {
             System.out.println("List of people: " + str);
         }
     }
-
-
-
-
 }

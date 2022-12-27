@@ -16,7 +16,7 @@ public class Worker extends department {
         this.position = position;
     }
     public String toString() {
-        return "department{" +
+        return "Worker{" +
                 "name='" + super.getName() + '\'' +
                 ", age=" + super.getAge() +
                 ", gender=" + super.getGender() + '\'' +

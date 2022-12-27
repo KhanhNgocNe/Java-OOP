@@ -6,7 +6,14 @@ import java.util.stream.Collectors;
 public class ManageDepartment {
     Scanner scanner = new Scanner(System.in);
     List<department> departments = new ArrayList<>();
-
+    public void search(String key, List <department> departments){
+        for (department department : departments) {
+            if (department.getName().equals(key)) {
+                System.out.println(department);
+            }
+        }
+        System.out.println("no search");
+    }
     public void menu(){
         while (true) {
             System.out.println("Menu:\n" +
@@ -91,14 +98,7 @@ public class ManageDepartment {
         }
         System.out.println("Add successfully!");
     }
-    public void search(String key, List <department> departments){
-        for (department department : departments) {
-            if (department.getName().equals(key)) {
-                System.out.println(department);
-            }
-        }
-        System.out.println("no search");
-    }
+
     public void showListDepartment(){
         for (department department : departments)
             System.out.println(department.toString());

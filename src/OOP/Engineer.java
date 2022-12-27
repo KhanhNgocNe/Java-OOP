@@ -18,7 +18,7 @@ public class Engineer extends department{
     }
 
     public String toString() {
-        return "department{" +
+        return "Engineer{" +
                 "name='" + super.getName() + '\'' +
                 ", age=" + super.getAge() +
                 ", gender=" + super.getGender() + '\'' +
